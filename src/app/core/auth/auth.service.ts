@@ -1,7 +1,7 @@
 import { computed, Injectable, signal } from '@angular/core';
 import { User } from '@supabase/supabase-js';
 
-import { getSupabaseClient, getSupabaseSchemaClient } from './supabase.client';
+import { getSupabaseClient, getSupabaseSchemaClient } from '../supabase/supabase.client';
 
 @Injectable({ providedIn: 'root' })
 export class AuthService {

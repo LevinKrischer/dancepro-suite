@@ -71,7 +71,7 @@ In development mode (`ng serve`), Angular uses this local file automatically via
 For code access, use the helper in `src/app/core/supabase.client.ts`:
 
 ```ts
-import { getSupabaseClient } from './app/core/supabase.client';
+import { getSupabaseClient } from './app/core/supabase/supabase.client';
 
 const supabase = getSupabaseClient();
 ```

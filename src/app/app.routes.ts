@@ -1,8 +1,8 @@
 import { Routes } from '@angular/router';
 
-import { authGuard, guestGuard } from './core/auth.guard';
-import { LoginPageComponent } from './features/auth/login-page.component';
-import { DashboardPageComponent } from './features/dashboard/dashboard-page.component';
+import { authGuard, guestGuard } from './core/auth/auth.guard';
+import { LoginPageComponent } from './features/auth/pages/login-page.component';
+import { DashboardPageComponent } from './features/dashboard/pages/dashboard-page.component';
 
 export const routes: Routes = [
 	{ path: '', pathMatch: 'full', redirectTo: 'dashboard' },
